@@ -1,0 +1,1 @@
+Evidence maps produced by me, visualised on a static Jekyll site using the Thalloo geo-temporal visualisation template.
