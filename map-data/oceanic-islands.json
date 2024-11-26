@@ -1,0 +1,119 @@
+{
+    "Name": "Shrub growth and expansion in the Arctic tundra",
+    "Description": "A geographic map of the evidence that exists of long-term biodiversity change in oceanic islands. (This is placeholder text).",
+    "Publication": "In preperation",
+    "Logos": [],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "sample_parent_material",
+    "MaxPieSize": 145,
+    "ClusterDistance": 500,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "A political basemap based on UN country code."
+    }],
+    "Fields": [
+        {
+            "Column": "proxy_groups",
+            "Name": "Proxy group",
+            "DataType": "string",
+            "Description": "The proxies used to infer biodiversity change."
+        },
+        {
+            "Column": "ocean",
+            "Name": "Ocean",
+            "DataType": "string",
+            "Description": "The ocean in which the island is located."
+        },
+        {
+            "Column": "archipelago",
+            "Name": "Archipelago",
+            "DataType": "string",
+            "Description": "The archipelago in which the island is located."
+        },
+        {
+            "Column": "island_name",
+            "Name": "Island",
+            "DataType": "string",
+            "Description": "The name of the island."
+        },
+        {
+            "Column": "sample_parent_material",
+            "Name": "Sample origin (parent material)",
+            "DataType": "string",
+            "Description": "The environmental archive from which the same has been taken."
+        },
+        {
+            "Column": "drivers_of_change_proxies",
+            "Name": "Environmental drivers of change: proxies used",
+            "DataType": "string",
+            "Description": "If a multi-proxy study, the proxies applied to infer environmental properties."
+        },
+        {
+            "Column": "timeline_length",
+            "Name": "Length of timeline",
+            "DataType": "float",
+            "Unit": "years",
+            "Description": "Note: represents the best estimate as stated by authors. Dates have not been harmonised, and may include both calibrated and uncalibrated radiocarbon dates."
+        },
+        {
+            "Column": "latest_extent_estimate",
+            "Name": "Estimate of Latest Extent (youngest age)",
+            "DataType": "float",
+            "Unit": "years before present",
+            "Description": "Note: represents the best estimate as stated by authors. Dates have not been harmonised, and may include both calibrated and uncalibrated radiocarbon dates."
+        },
+        {
+            "Column": "earliest_extent_estimate",
+            "Name": "Estimate of Earliest Extent (oldest age)",
+            "DataType": "float",
+            "Unit": "years before present",
+            "Description": "Note: represents the best estimate as stated by authors. Dates have not been harmonised, and may include both calibrated and uncalibrated radiocarbon dates."
+        },
+        {
+            "Column": "elevation",
+            "Name": "Elevation of study site",
+            "DataType": "float",
+            "Unit": "metres above sea level",
+            "Description": "The elevation at which the sample was taken, according to the authors."
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "sample_parent_material",
+        "Palette": [
+            {
+                "Name": "swamp",
+                "Hex": "38a801"
+            },
+            {
+                "Name": "pollen",
+                "Hex": "8ee458"
+            },
+            {
+                "Name": "soil",
+                "Hex": "ff8c22"
+            },
+            {
+                "Name": "lake",
+                "Hex": "73b2ff"
+            },
+            {
+                "Name": "peat",
+                "Hex": "664402"
+            },
+            {
+                "Name": "bog",
+                "Hex": "ff8c22"
+            },
+            {
+                "Name": "archaeological dig",
+                "Hex": "ff2fc5"
+            },
+            {
+                "Name": "archaeological dig",
+                "Hex": "befee8"
+            }
+        ]
+    }]
+}
