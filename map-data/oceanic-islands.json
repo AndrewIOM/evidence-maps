@@ -1,5 +1,5 @@
 {
-    "Name": "Shrub growth and expansion in the Arctic tundra",
+    "Name": "Proxy evidence for Holocene biodiversity change in oceanic islands",
     "Description": "A geographic map of the evidence that exists of long-term biodiversity change in oceanic islands. (This is placeholder text).",
     "Publication": "In preperation",
     "Logos": [],
@@ -51,6 +51,12 @@
             "Description": "If a multi-proxy study, the proxies applied to infer environmental properties."
         },
         {
+            "Column": "radiocarbon_calibrated",
+            "Name": "Are radiocarbon dates calibrated?",
+            "DataType": "string",
+            "Description": "Indicates if dates were stated in BP or cal. yr. BP (or equivalents)."
+        },
+        {
             "Column": "timeline_length",
             "Name": "Length of timeline",
             "DataType": "float",
@@ -77,42 +83,65 @@
             "DataType": "float",
             "Unit": "metres above sea level",
             "Description": "The elevation at which the sample was taken, according to the authors."
+        },
+        {
+            "Column": "n_samples",
+            "Name": "Number of samples / levels in timeline",
+            "DataType": "float",
+            "Unit": "count",
+            "Description": "The number of levels (or samples) that analyses were conducted within each time-series."
         }
     ],
     "DataPalettes": [{
         "Column": "sample_parent_material",
         "Palette": [
             {
-                "Name": "swamp",
-                "Hex": "38a801"
-            },
-            {
-                "Name": "pollen",
-                "Hex": "8ee458"
-            },
-            {
                 "Name": "soil",
-                "Hex": "ff8c22"
+                "Hex": "E69F00"
+            },
+            {
+                "Name": "peatland",
+                "Hex": "F0E442"
+            },
+            {
+                "Name": "archeological site",
+                "Hex": "CC79A7"
             },
             {
                 "Name": "lake",
-                "Hex": "73b2ff"
+                "Hex": "115f9a"
             },
             {
-                "Name": "peat",
-                "Hex": "664402"
+                "Name": "swamp",
+                "Hex": "48b5c4"
             },
             {
-                "Name": "bog",
-                "Hex": "ff8c22"
+                "Name": "marsh",
+                "Hex": "009E73"
             },
             {
-                "Name": "archaeological dig",
-                "Hex": "ff2fc5"
+                "Name": "wetland",
+                "Hex": "22a7f0"
             },
             {
-                "Name": "archaeological dig",
+                "Name": "estuary",
+                "Hex": "3C924B"
+            },
+            {
+                "Name": "lagoon",
+                "Hex": "fff"
+            },
+            {
+                "Name": "sinkhole",
                 "Hex": "befee8"
+            },
+            {
+                "Name": "cave",
+                "Hex": "D55E00"
+            },
+            {
+                "Name": "other",
+                "Hex": "000"
             }
         ]
     }]
